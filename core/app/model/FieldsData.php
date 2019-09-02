@@ -23,7 +23,8 @@ class FieldsData {
 	}
 
 	public static function getAll($k,$v){
-		 $sql = "SHOW FULL FIELDS FROM".$k.".".$v;
+		 $sql = "SHOW FULL FIELDS FROM ".$k.".".$v;
+		// echo "sql:".$sql;
 		$query = Executor::doit($sql);
 		return Model::many($query[0],new FieldsData());
 	}

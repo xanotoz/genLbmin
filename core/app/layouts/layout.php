@@ -39,7 +39,6 @@ Este es el layout principal, a partir de este layout o plantilla se muestran el 
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class='glyphicon glyphicon-th-large'></i> MAS <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="./?view=login">Login</a></li>
-            <li><a href="./?view=table">Tabla</a></li>
 
             <li><a href="./?view=help">Ayuda</a></li>
           </ul>
