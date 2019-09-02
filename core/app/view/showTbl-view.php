@@ -36,7 +36,7 @@ if($user==null){ Core::redir("./");}
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading text-center">Vistas</div>
-				<a href="#">
+				<a href=".?action=genView">
 					<div class="panel-body">
 						<h1 class="text-center"><i class='fa fa-eye'></i></h1>
 						<p class="text-center">Las vistas sirven para mostrar contenido al usuario.</p>
@@ -60,7 +60,7 @@ if($user==null){ Core::redir("./");}
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading text-center">Modelos</div>
-				<a href="#">
+				<a href=".?action=genModel&dbName=<?php echo $_GET["dbName"]?>&dbTbl=<?php echo $_GET["tblName"]?>">
 					<div class="panel-body">
 						<h1 class="text-center"><i class='fa fa-table'></i></h1>
 						<p class="text-center">Los modelos sirven para agilizar la manipulacion de datos de la bd.</p>
